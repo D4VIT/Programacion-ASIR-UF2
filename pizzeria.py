@@ -23,3 +23,6 @@ def procesar_pago():
 
 def salir():
     print("Saliendo.....")
+
+while True:
+    mostrar_menu()

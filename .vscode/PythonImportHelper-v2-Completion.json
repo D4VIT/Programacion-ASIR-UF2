@@ -94,7 +94,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")\ndef procesar_pago():\n    print(\"Se procesa el pago.....\")\ndef salir():\n    print(\"Saliendo.....\")\nwhile True:\n    mostrar_menu()\n    opcion = input(\"Selecciona una: \")",
+        "peekOfCode": "def gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")\ndef procesar_pago():\n    print(\"Se procesa el pago.....\")\ndef salir():\n    print(\"Saliendo.....\")\nwhile True:\n    mostrar_menu()\n    opcion = input(\"Selecciona una: \")\n    if opcion == \"1\":",
         "detail": "pizzeria",
         "documentation": {}
     },
@@ -103,7 +103,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def procesar_pago():\n    print(\"Se procesa el pago.....\")\ndef salir():\n    print(\"Saliendo.....\")\nwhile True:\n    mostrar_menu()\n    opcion = input(\"Selecciona una: \")",
+        "peekOfCode": "def procesar_pago():\n    print(\"Se procesa el pago.....\")\ndef salir():\n    print(\"Saliendo.....\")\nwhile True:\n    mostrar_menu()\n    opcion = input(\"Selecciona una: \")\n    if opcion == \"1\":\n        tomar_pedido()\n    elif opcion == \"2\":",
         "detail": "pizzeria",
         "documentation": {}
     },
@@ -112,7 +112,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def salir():\n    print(\"Saliendo.....\")\nwhile True:\n    mostrar_menu()\n    opcion = input(\"Selecciona una: \")",
+        "peekOfCode": "def salir():\n    print(\"Saliendo.....\")\nwhile True:\n    mostrar_menu()\n    opcion = input(\"Selecciona una: \")\n    if opcion == \"1\":\n        tomar_pedido()\n    elif opcion == \"2\":\n        preparar_pizza()\n    elif opcion == \"3\":",
         "detail": "pizzeria",
         "documentation": {}
     },

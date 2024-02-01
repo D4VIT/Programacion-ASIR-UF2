@@ -27,3 +27,14 @@ def salir():
 while True:
     mostrar_menu()
     opcion = input("Selecciona una: ")
+
+    if opcion == "1":
+        tomar_pedido()
+    elif opcion == "2":
+        preparar_pizza()
+    elif opcion == "3":
+        gestionar_stock()
+    elif opcion == "4":
+        procesar_pago()
+    elif opcion == "5":
+        salir()

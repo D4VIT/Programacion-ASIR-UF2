@@ -49,8 +49,6 @@ while True:
     else:
         print("Opción no válida. Por favor, seleccione una opción correcta.")
 '''
-biblioteca = []
-
 def mostrar_menu():
     print("\n1. Agregar libro")
     print("2. Prestar libro")
@@ -90,7 +88,7 @@ def devolver_libro():
         if not encontrado:
             print(f'No se puede devolver el libro "{titulo}".')
 
-    elif opcion == "4":
+def salir():
         print("Saliendo del programa.")
         break
 

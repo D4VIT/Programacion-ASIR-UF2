@@ -40,7 +40,7 @@
         "kind": 2,
         "importPath": "biblioteca",
         "description": "biblioteca",
-        "peekOfCode": "def salir():\n        print(\"Saliendo del programa.\")\n        break\n    else:\n        print(\"Opción no válida. Por favor, seleccione una opción correcta.\")",
+        "peekOfCode": "def salir():\n        print(\"Saliendo del programa.\")\n    else:\n        print(\"Opción no válida. Por favor, seleccione una opción correcta.\")",
         "detail": "biblioteca",
         "documentation": {}
     },

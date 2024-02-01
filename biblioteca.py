@@ -90,7 +90,9 @@ def devolver_libro():
 
 def salir():
         print("Saliendo del programa.")
-        break
+
+
+
 
     else:
         print("Opción no válida. Por favor, seleccione una opción correcta.")

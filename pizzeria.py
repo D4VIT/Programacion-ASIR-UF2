@@ -20,3 +20,6 @@ def gestionar_stock():
 
 def procesar_pago():
     print("Se procesa el pago.....")
+
+def salir():
+    print("Saliendo.....")

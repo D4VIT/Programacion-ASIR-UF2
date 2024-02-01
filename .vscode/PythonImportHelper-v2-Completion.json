@@ -1,21 +1,5 @@
 [
     {
-        "label": "biblioteca",
-        "importPath": "biblioteca",
-        "description": "biblioteca",
-        "isExtraImport": true,
-        "detail": "biblioteca",
-        "documentation": {}
-    },
-    {
-        "label": "salir",
-        "importPath": "biblioteca",
-        "description": "biblioteca",
-        "isExtraImport": true,
-        "detail": "biblioteca",
-        "documentation": {}
-    },
-    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "biblioteca",

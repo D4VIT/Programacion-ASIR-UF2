@@ -61,5 +61,14 @@
         "peekOfCode": "biblioteca = []\ndef mostrar_menu():\n    print(\"\\n1. Agregar libro\")\n    print(\"2. Prestar libro\")\n    print(\"3. Devolver libro\")\n    print(\"4. Salir\")\ndef agregar_libro():\n        titulo = input(\"Ingrese el título del libro: \")\n        autor = input(\"Ingrese el autor del libro: \")\n        genero = input(\"Ingrese el género del libro: \")",
         "detail": "biblioteca",
         "documentation": {}
+    },
+    {
+        "label": "tomar_pedido",
+        "kind": 2,
+        "importPath": "pizzeria",
+        "description": "pizzeria",
+        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")",
+        "detail": "pizzeria",
+        "documentation": {}
     }
 ]

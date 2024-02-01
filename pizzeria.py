@@ -38,3 +38,5 @@ while True:
         procesar_pago()
     elif opcion == "5":
         salir()
+    else:
+        print("opcion no valida elige una de las 5")

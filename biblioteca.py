@@ -57,6 +57,8 @@ def mostrar_menu():
     print("3. Devolver libro")
     print("4. Salir")
 
+def agregar_libro():
+    libro=()
     if opcion == "1":
         titulo = input("Ingrese el título del libro: ")
         autor = input("Ingrese el autor del libro: ")
@@ -78,7 +80,7 @@ def mostrar_menu():
         if not encontrado:
             print(f'Libro "{titulo}" no disponible para préstamo.')
 
-    elif opcion == "3":
+def devolver_libro():
         titulo = input("Ingrese el título del libro a devolver: ")
         encontrado = False
         for libro in biblioteca:

@@ -26,3 +26,4 @@ def salir():
 
 while True:
     mostrar_menu()
+    opcion = input("Selecciona una: ")

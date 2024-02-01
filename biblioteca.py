@@ -1,4 +1,4 @@
-from biblioteca import salir
+from biblioteca import biblioteca, salir
 
 '''
 biblioteca = []
@@ -51,6 +51,7 @@ while True:
     else:
         print("Opción no válida. Por favor, seleccione una opción correcta.")
 '''
+biblioteca = []
 def mostrar_menu():
     print("\n1. Agregar libro")
     print("2. Prestar libro")

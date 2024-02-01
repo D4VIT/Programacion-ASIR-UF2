@@ -1,0 +1,11 @@
+[
+    {
+        "label": "biblioteca",
+        "kind": 5,
+        "importPath": "biblioteca",
+        "description": "biblioteca",
+        "peekOfCode": "biblioteca = []\nwhile True:\n    print(\"\\n1. Agregar libro\")\n    print(\"2. Prestar libro\")\n    print(\"3. Devolver libro\")\n    print(\"4. Salir\")\n    opcion = input(\"Seleccione una opción: \")\n    if opcion == \"1\":\n        titulo = input(\"Ingrese el título del libro: \")\n        autor = input(\"Ingrese el autor del libro: \")",
+        "detail": "biblioteca",
+        "documentation": {}
+    }
+]

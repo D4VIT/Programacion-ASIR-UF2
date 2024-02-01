@@ -12,6 +12,7 @@ def tomar_pedido():
 
 def preparar_pizza():
     nombre_pizza = input("Ingrese el nombre de la pizza que quiere: ")
+    pizzas_disponibles.append(nombre_pizza)
     print("se prepara una pizza")
 
 def gestionar_stock():

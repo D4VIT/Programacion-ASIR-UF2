@@ -76,7 +76,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
+        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    pizzas_disponibles.append(nombre_pizza)\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
         "detail": "pizzeria",
         "documentation": {}
     },
@@ -85,7 +85,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
+        "peekOfCode": "def preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    pizzas_disponibles.append(nombre_pizza)\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
         "detail": "pizzeria",
         "documentation": {}
     },

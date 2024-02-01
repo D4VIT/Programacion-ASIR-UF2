@@ -67,7 +67,16 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")",
+        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    print(\"se prepara una pizza\")",
+        "detail": "pizzeria",
+        "documentation": {}
+    },
+    {
+        "label": "preparar_pizza",
+        "kind": 2,
+        "importPath": "pizzeria",
+        "description": "pizzeria",
+        "peekOfCode": "def preparar_pizza():\n    print(\"se prepara una pizza\")",
         "detail": "pizzeria",
         "documentation": {}
     }

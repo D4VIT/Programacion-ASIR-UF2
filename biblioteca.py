@@ -93,6 +93,7 @@ def salir():
 
 while True:
     mostrar_menu()
+    opcion = input("Selecciona una opcion de 1 a 4:")
 
 
     else:

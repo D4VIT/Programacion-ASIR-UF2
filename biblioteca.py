@@ -91,7 +91,8 @@ def devolver_libro():
 def salir():
         print("Saliendo del programa.")
 
-
+while True:
+    mostrar_menu()
 
 
     else:

@@ -63,6 +63,15 @@
         "documentation": {}
     },
     {
+        "label": "mostrar_menu",
+        "kind": 2,
+        "importPath": "pizzeria",
+        "description": "pizzeria",
+        "peekOfCode": "def mostrar_menu():\ndef tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
+        "detail": "pizzeria",
+        "documentation": {}
+    },
+    {
         "label": "tomar_pedido",
         "kind": 2,
         "importPath": "pizzeria",
@@ -94,7 +103,7 @@
         "kind": 5,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "pizzas_disponibles = []\ndef tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
+        "peekOfCode": "pizzas_disponibles = []\ndef mostrar_menu():\ndef tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
         "detail": "pizzeria",
         "documentation": {}
     }

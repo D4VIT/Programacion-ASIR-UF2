@@ -1,4 +1,4 @@
-from biblioteca import biblioteca, salir
+
 
 '''
 biblioteca = []

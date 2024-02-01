@@ -67,7 +67,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    print(\"se prepara una pizza\")",
+        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
         "detail": "pizzeria",
         "documentation": {}
     },
@@ -76,7 +76,16 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def preparar_pizza():\n    print(\"se prepara una pizza\")",
+        "peekOfCode": "def preparar_pizza():\n    print(\"se prepara una pizza\")\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
+        "detail": "pizzeria",
+        "documentation": {}
+    },
+    {
+        "label": "gestionar_stock",
+        "kind": 2,
+        "importPath": "pizzeria",
+        "description": "pizzeria",
+        "peekOfCode": "def gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
         "detail": "pizzeria",
         "documentation": {}
     }

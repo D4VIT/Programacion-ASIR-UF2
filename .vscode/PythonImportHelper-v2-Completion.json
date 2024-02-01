@@ -76,7 +76,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    pizzas_disponibles.append(nombre_pizza)\n    print(f'Pizza \"{nombre pizza}\" preparada...')\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
+        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    pizzas_disponibles.append(nombre_pizza)\n    print(f'Pizza \"{nombre pizza}\" preparada...')\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")\ndef procesar_pago():\n    print(\"Se procesa el pago.....\")",
         "detail": "pizzeria",
         "documentation": {}
     },
@@ -85,7 +85,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    pizzas_disponibles.append(nombre_pizza)\n    print(f'Pizza \"{nombre pizza}\" preparada...')\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
+        "peekOfCode": "def preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    pizzas_disponibles.append(nombre_pizza)\n    print(f'Pizza \"{nombre pizza}\" preparada...')\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")\ndef procesar_pago():\n    print(\"Se procesa el pago.....\")",
         "detail": "pizzeria",
         "documentation": {}
     },
@@ -94,7 +94,16 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
+        "peekOfCode": "def gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")\ndef procesar_pago():\n    print(\"Se procesa el pago.....\")",
+        "detail": "pizzeria",
+        "documentation": {}
+    },
+    {
+        "label": "procesar_pago",
+        "kind": 2,
+        "importPath": "pizzeria",
+        "description": "pizzeria",
+        "peekOfCode": "def procesar_pago():\n    print(\"Se procesa el pago.....\")",
         "detail": "pizzeria",
         "documentation": {}
     },

@@ -17,3 +17,6 @@ def preparar_pizza():
 
 def gestionar_stock():
     print("Se gestiona el stock de ingredientes para la pizza")
+
+def procesar_pago():
+    print("Se procesa el pago.....")

@@ -52,13 +52,10 @@ while True:
 biblioteca = []
 
 def mostrar_menu():
-while True:
     print("\n1. Agregar libro")
     print("2. Prestar libro")
     print("3. Devolver libro")
     print("4. Salir")
-
-    opcion = input("Seleccione una opción: ")
 
     if opcion == "1":
         titulo = input("Ingrese el título del libro: ")

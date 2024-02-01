@@ -1,5 +1,13 @@
 [
     {
+        "label": "salir",
+        "importPath": "biblioteca",
+        "description": "biblioteca",
+        "isExtraImport": true,
+        "detail": "biblioteca",
+        "documentation": {}
+    },
+    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "biblioteca",
@@ -40,7 +48,7 @@
         "kind": 2,
         "importPath": "biblioteca",
         "description": "biblioteca",
-        "peekOfCode": "def salir():\n        print(\"Saliendo del programa.\")\nwhile True:\n    mostrar_menu()\n    opcion = input(\"Selecciona una opcion de 1 a 4:\")\n    else:\n        print(\"Opción no válida. Por favor, seleccione una opción correcta.\")",
+        "peekOfCode": "def salir():\n        print(\"Saliendo del programa.\")\nwhile True:\n    mostrar_menu()\n    opcion = input(\"Selecciona una opcion de 1 a 4:\")\n    if opcion == \"1\":\n         agregar_libro()\n    elif opcion == \"2\":\n         prestar_libro()\n    elif opcion == \"3\":",
         "detail": "biblioteca",
         "documentation": {}
     },

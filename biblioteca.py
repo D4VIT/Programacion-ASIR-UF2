@@ -1,3 +1,5 @@
+from biblioteca import salir
+
 '''
 biblioteca = []
 
@@ -95,6 +97,13 @@ while True:
     mostrar_menu()
     opcion = input("Selecciona una opcion de 1 a 4:")
 
-
+    if opcion == "1":
+         agregar_libro()
+    elif opcion == "2":
+         prestar_libro()
+    elif opcion == "3":
+         devolver_libro()
+    elif opcion == "4":
+         salir()
     else:
         print("Opción no válida. Por favor, seleccione una opción correcta.")

@@ -4,7 +4,7 @@
         "kind": 2,
         "importPath": "biblioteca",
         "description": "biblioteca",
-        "peekOfCode": "def mostrar_menu():\n    print(\"\\n1. Agregar libro\")\n    print(\"2. Prestar libro\")\n    print(\"3. Devolver libro\")\n    print(\"4. Salir\")\ndef agregar_libro():\n    libro=()\n    if opcion == \"1\":\n        titulo = input(\"Ingrese el título del libro: \")\n        autor = input(\"Ingrese el autor del libro: \")",
+        "peekOfCode": "def mostrar_menu():\n    print(\"\\n1. Agregar libro\")\n    print(\"2. Prestar libro\")\n    print(\"3. Devolver libro\")\n    print(\"4. Salir\")\ndef agregar_libro():\n        titulo = input(\"Ingrese el título del libro: \")\n        autor = input(\"Ingrese el autor del libro: \")\n        genero = input(\"Ingrese el género del libro: \")\n        disponibilidad = True",
         "detail": "biblioteca",
         "documentation": {}
     },
@@ -13,7 +13,16 @@
         "kind": 2,
         "importPath": "biblioteca",
         "description": "biblioteca",
-        "peekOfCode": "def agregar_libro():\n    libro=()\n    if opcion == \"1\":\n        titulo = input(\"Ingrese el título del libro: \")\n        autor = input(\"Ingrese el autor del libro: \")\n        genero = input(\"Ingrese el género del libro: \")\n        disponibilidad = True\n        libro = {\"titulo\": titulo, \"autor\": autor, \"genero\": genero, \"disponibilidad\": disponibilidad}\n        biblioteca.append(libro)\n        print(f'Libro \"{titulo}\" agregado a la biblioteca.')",
+        "peekOfCode": "def agregar_libro():\n        titulo = input(\"Ingrese el título del libro: \")\n        autor = input(\"Ingrese el autor del libro: \")\n        genero = input(\"Ingrese el género del libro: \")\n        disponibilidad = True\n        libro = {\"titulo\": titulo, \"autor\": autor, \"genero\": genero, \"disponibilidad\": disponibilidad}\n        biblioteca.append(libro)\n        print(f'Libro \"{titulo}\" agregado a la biblioteca.')\ndef prestar_libro():\n        titulo = input(\"Ingrese el título del libro a prestar: \")",
+        "detail": "biblioteca",
+        "documentation": {}
+    },
+    {
+        "label": "prestar_libro",
+        "kind": 2,
+        "importPath": "biblioteca",
+        "description": "biblioteca",
+        "peekOfCode": "def prestar_libro():\n        titulo = input(\"Ingrese el título del libro a prestar: \")\n        encontrado = False\n        for libro in biblioteca:\n            if libro[\"titulo\"] == titulo and libro[\"disponibilidad\"]:\n                libro[\"disponibilidad\"] = False\n                print(f'Libro \"{titulo}\" prestado con éxito.')\n                encontrado = True\n                break\n        if not encontrado:",
         "detail": "biblioteca",
         "documentation": {}
     },
@@ -40,7 +49,7 @@
         "kind": 5,
         "importPath": "biblioteca",
         "description": "biblioteca",
-        "peekOfCode": "biblioteca = []\ndef mostrar_menu():\n    print(\"\\n1. Agregar libro\")\n    print(\"2. Prestar libro\")\n    print(\"3. Devolver libro\")\n    print(\"4. Salir\")\ndef agregar_libro():\n    libro=()\n    if opcion == \"1\":\n        titulo = input(\"Ingrese el título del libro: \")",
+        "peekOfCode": "biblioteca = []\ndef mostrar_menu():\n    print(\"\\n1. Agregar libro\")\n    print(\"2. Prestar libro\")\n    print(\"3. Devolver libro\")\n    print(\"4. Salir\")\ndef agregar_libro():\n        titulo = input(\"Ingrese el título del libro: \")\n        autor = input(\"Ingrese el autor del libro: \")\n        genero = input(\"Ingrese el género del libro: \")",
         "detail": "biblioteca",
         "documentation": {}
     }

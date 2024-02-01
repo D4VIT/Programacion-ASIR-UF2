@@ -58,8 +58,6 @@ def mostrar_menu():
     print("4. Salir")
 
 def agregar_libro():
-    libro=()
-    if opcion == "1":
         titulo = input("Ingrese el título del libro: ")
         autor = input("Ingrese el autor del libro: ")
         genero = input("Ingrese el género del libro: ")
@@ -68,7 +66,7 @@ def agregar_libro():
         biblioteca.append(libro)
         print(f'Libro "{titulo}" agregado a la biblioteca.')
 
-    elif opcion == "2":
+def prestar_libro():
         titulo = input("Ingrese el título del libro a prestar: ")
         encontrado = False
         for libro in biblioteca:

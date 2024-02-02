@@ -8,6 +8,8 @@ def mostrar_menu():
     print("5. Salir")
 
 def tomar_pedido():
+    reserva_pizza = input("Quiere reservar pizza? ")
+    pizza_reserva.append(reserva_pizza)
     print("Se esta haciendo un nuevo pedido")
 
 def preparar_pizza():

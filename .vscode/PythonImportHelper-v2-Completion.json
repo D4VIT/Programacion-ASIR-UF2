@@ -67,7 +67,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def mostrar_menu():\n    print(\"\\n1. Tomar pedido\")\n    print(\"2. Preparar pizza\")\n    print(\"3. Gestionar Estoc\")\n    print(\"4. Procesar Pago\")\n    print(\"5. Salir\")\ndef tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")",
+        "peekOfCode": "def mostrar_menu():\n    print(\"\\n1. Tomar pedido\")\n    print(\"2. Preparar pizza\")\n    print(\"3. Gestionar Estoc\")\n    print(\"4. Procesar Pago\")\n    print(\"5. Salir\")\ndef tomar_pedido():\n    reserva_pizza = input(\"Quiere reservar pizza? \")\n    pizza_reserva.append(reserva_pizza)\n    print(\"Se esta haciendo un nuevo pedido\")",
         "detail": "pizzeria",
         "documentation": {}
     },
@@ -76,7 +76,7 @@
         "kind": 2,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "def tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    pizzas_disponibles.append(nombre_pizza)\n    print(f'Pizza \"{nombre_pizza}\" preparada...')\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")\ndef procesar_pago():\n    print(\"Se procesa el pago.....\")",
+        "peekOfCode": "def tomar_pedido():\n    reserva_pizza = input(\"Quiere reservar pizza? \")\n    pizza_reserva.append(reserva_pizza)\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():\n    nombre_pizza = input(\"Ingrese el nombre de la pizza que quiere: \")\n    pizzas_disponibles.append(nombre_pizza)\n    print(f'Pizza \"{nombre_pizza}\" preparada...')\ndef gestionar_stock():\n    print(\"Se gestiona el stock de ingredientes para la pizza\")",
         "detail": "pizzeria",
         "documentation": {}
     },
@@ -121,7 +121,7 @@
         "kind": 5,
         "importPath": "pizzeria",
         "description": "pizzeria",
-        "peekOfCode": "pizzas_disponibles = []\ndef mostrar_menu():\n    print(\"\\n1. Tomar pedido\")\n    print(\"2. Preparar pizza\")\n    print(\"3. Gestionar Estoc\")\n    print(\"4. Procesar Pago\")\n    print(\"5. Salir\")\ndef tomar_pedido():\n    print(\"Se esta haciendo un nuevo pedido\")\ndef preparar_pizza():",
+        "peekOfCode": "pizzas_disponibles = []\ndef mostrar_menu():\n    print(\"\\n1. Tomar pedido\")\n    print(\"2. Preparar pizza\")\n    print(\"3. Gestionar Estoc\")\n    print(\"4. Procesar Pago\")\n    print(\"5. Salir\")\ndef tomar_pedido():\n    reserva_pizza = input(\"Quiere reservar pizza? \")\n    pizza_reserva.append(reserva_pizza)",
         "detail": "pizzeria",
         "documentation": {}
     }

@@ -63,6 +63,15 @@
         "documentation": {}
     },
     {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "observatori",
+        "description": "observatori",
+        "peekOfCode": "def menu():",
+        "detail": "observatori",
+        "documentation": {}
+    },
+    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "pizzeria",

@@ -39,4 +39,6 @@ def calcular_diferencia_maxima():
         diferencia_maxima = maxima_temperatura - minima_temperatura
 
 def calcular_temperatura_media(temperaturas):
-
+    suma = 0
+    contador = 0
+    

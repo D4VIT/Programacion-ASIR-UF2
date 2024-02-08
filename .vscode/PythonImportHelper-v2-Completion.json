@@ -102,7 +102,7 @@
         "kind": 2,
         "importPath": "observatori",
         "description": "observatori",
-        "peekOfCode": "def calcular_temperatura_media(temperaturas):",
+        "peekOfCode": "def calcular_temperatura_media(temperaturas):\n    suma = 0\n    contador = 0",
         "detail": "observatori",
         "documentation": {}
     },

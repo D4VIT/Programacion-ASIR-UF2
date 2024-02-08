@@ -13,3 +13,6 @@ def registrar_temperatura():
     for caracter_actual in pregunta_temperatura:
         if caracter_actual != ' ':
             tiempo += caracter_actual
+        else:
+            temperaturas.append(float(tiempo))
+            tiempo = ''

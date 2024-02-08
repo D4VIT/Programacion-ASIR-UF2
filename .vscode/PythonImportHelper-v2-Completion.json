@@ -76,7 +76,7 @@
         "kind": 2,
         "importPath": "observatori",
         "description": "observatori",
-        "peekOfCode": "def registrar_temperatura():\n    pregunta_temperatura = input(\"Escriu les temperatures d'aquesta setmana separades per espais: \")\n    temperaturas = []\n    tiempo = ''\n    for caracter_actual in pregunta_temperatura:\n        if caracter_actual != ' ':\n            tiempo += caracter_actual",
+        "peekOfCode": "def registrar_temperatura():\n    pregunta_temperatura = input(\"Escriu les temperatures d'aquesta setmana separades per espais: \")\n    temperaturas = []\n    tiempo = ''\n    for caracter_actual in pregunta_temperatura:\n        if caracter_actual != ' ':\n            tiempo += caracter_actual\n        else:\n            temperaturas.append(float(tiempo))\n            tiempo = ''",
         "detail": "observatori",
         "documentation": {}
     },

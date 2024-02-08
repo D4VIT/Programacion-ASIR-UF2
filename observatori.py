@@ -19,3 +19,7 @@ def registrar_temperatura():
     if tiempo:
         temperaturas.append(float(tiempo))
     temperaturas.append(-1)
+
+def calcular_diferencia_maxima():
+    maxima_temperatura = -273.15
+    minima_temperatura = 1000

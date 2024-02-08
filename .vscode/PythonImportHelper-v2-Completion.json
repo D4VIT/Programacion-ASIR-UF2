@@ -81,6 +81,15 @@
         "documentation": {}
     },
     {
+        "label": "calcular_diferencia_maxima",
+        "kind": 2,
+        "importPath": "observatori",
+        "description": "observatori",
+        "peekOfCode": "def calcular_diferencia_maxima():\n    maxima_temperatura = -273.15\n    minima_temperatura = 1000",
+        "detail": "observatori",
+        "documentation": {}
+    },
+    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "pizzeria",

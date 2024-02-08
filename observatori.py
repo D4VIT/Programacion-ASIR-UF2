@@ -35,3 +35,4 @@ def calcular_diferencia_maxima():
                 minima_temperatura = tiempo
     if encontrado_marcador == 1:
         diferencia_maxima = maxima_temperatura - minima_temperatura
+        print(f"Fins avui la diferència màxima ha estat de {diferencia_maxima:.2f} graus.")

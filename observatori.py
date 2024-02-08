@@ -27,3 +27,11 @@ def calcular_diferencia_maxima():
     diferencia_maxima = 0
     for tiempo in temperaturas:
         if tiempo == -1:
+            encontrado_marcador = 1
+        else:
+            if tiempo > maxima_temperatura:
+                maxima_temperatura = tiempo
+            if tiempo < minima_temperatura:
+                minima_temperatura = tiempo
+    if encontrado_marcador == 1:
+        diferencia_maxima = maxima_temperatura - minima_temperatura

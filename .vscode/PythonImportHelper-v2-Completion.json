@@ -1,5 +1,13 @@
 [
     {
+        "label": "calcular_diferencia_maxima",
+        "importPath": "observatori",
+        "description": "observatori",
+        "isExtraImport": true,
+        "detail": "observatori",
+        "documentation": {}
+    },
+    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "biblioteca",
@@ -86,6 +94,15 @@
         "importPath": "observatori",
         "description": "observatori",
         "peekOfCode": "def calcular_diferencia_maxima():\n    maxima_temperatura = -273.15\n    minima_temperatura = 1000\n    encontrado_marcador = 0\n    diferencia_maxima = 0\n    for tiempo in temperaturas:\n        if tiempo == -1:\n            encontrado_marcador = 1\n        else:\n            if tiempo > maxima_temperatura:",
+        "detail": "observatori",
+        "documentation": {}
+    },
+    {
+        "label": "calcular_temperatura_media",
+        "kind": 2,
+        "importPath": "observatori",
+        "description": "observatori",
+        "peekOfCode": "def calcular_temperatura_media(temperaturas):",
         "detail": "observatori",
         "documentation": {}
     },

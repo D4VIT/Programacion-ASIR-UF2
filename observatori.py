@@ -10,3 +10,6 @@ def registrar_temperatura():
     pregunta_temperatura = input("Escriu les temperatures d'aquesta setmana separades per espais: ")
     temperaturas = []
     tiempo = ''
+    for caracter_actual in pregunta_temperatura:
+        if caracter_actual != ' ':
+            tiempo += caracter_actual

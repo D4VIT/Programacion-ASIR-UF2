@@ -36,3 +36,5 @@ def calcular_diferencia_maxima():
     if encontrado_marcador == 1:
         diferencia_maxima = maxima_temperatura - minima_temperatura
         print(f"Fins avui la diferència màxima ha estat de {diferencia_maxima:.2f} graus.")
+    else:
+        print("No hi ha temperaturas registrades")

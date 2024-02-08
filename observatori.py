@@ -9,3 +9,4 @@ def menu():
 def registrar_temperatura():
     pregunta_temperatura = input("Escriu les temperatures d'aquesta setmana separades per espais: ")
     temperaturas = []
+    tiempo = ''

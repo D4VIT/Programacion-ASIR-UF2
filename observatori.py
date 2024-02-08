@@ -6,5 +6,4 @@ def menu():
     print("[DF] Consultar diferencia maxima")
     print("[FI] Sortir")
 
-def temperatura():
-    
+def registrar_temperatura():

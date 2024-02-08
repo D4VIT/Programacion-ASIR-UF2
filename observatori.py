@@ -16,3 +16,6 @@ def registrar_temperatura():
         else:
             temperaturas.append(float(tiempo))
             tiempo = ''
+    if tiempo:
+        temperaturas.append(float(tiempo))
+    temperaturas.append(-1)

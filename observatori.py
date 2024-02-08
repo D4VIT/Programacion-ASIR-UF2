@@ -23,3 +23,7 @@ def registrar_temperatura():
 def calcular_diferencia_maxima():
     maxima_temperatura = -273.15
     minima_temperatura = 1000
+    encontrado_marcador = 0
+    diferencia_maxima = 0
+    for tiempo in temperaturas:
+        if tiempo == -1:

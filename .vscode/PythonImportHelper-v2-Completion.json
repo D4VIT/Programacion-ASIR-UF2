@@ -85,7 +85,7 @@
         "kind": 2,
         "importPath": "observatori",
         "description": "observatori",
-        "peekOfCode": "def calcular_diferencia_maxima():\n    maxima_temperatura = -273.15\n    minima_temperatura = 1000",
+        "peekOfCode": "def calcular_diferencia_maxima():\n    maxima_temperatura = -273.15\n    minima_temperatura = 1000\n    encontrado_marcador = 0\n    diferencia_maxima = 0\n    for tiempo in temperaturas:\n        if tiempo == -1:",
         "detail": "observatori",
         "documentation": {}
     },

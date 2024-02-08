@@ -5,3 +5,6 @@ def menu():
     print("[MJ] Consultar temperatura mitjana")
     print("[DF] Consultar diferencia maxima")
     print("[FI] Sortir")
+
+def temperatura():
+    

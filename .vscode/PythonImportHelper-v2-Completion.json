@@ -67,7 +67,7 @@
         "kind": 2,
         "importPath": "observatori",
         "description": "observatori",
-        "peekOfCode": "def menu():\n    print(\"Benvingut al registre de temperatures\")\n    print(\"--------------------------------------\")\n    print(\"[RT] Registrar temperatures setmanals\")\n    print(\"[MJ] Consultar temperatura mitjana\")\n    print(\"[DF] Consultar diferencia maxima\")\n    print(\"[FI] Sortir\")\ndef registrar_temperatura():\n    pregunta_temperatura = input(\"Escriu les temperatures d'aquesta setmana separades per espais: \")",
+        "peekOfCode": "def menu():\n    print(\"Benvingut al registre de temperatures\")\n    print(\"--------------------------------------\")\n    print(\"[RT] Registrar temperatures setmanals\")\n    print(\"[MJ] Consultar temperatura mitjana\")\n    print(\"[DF] Consultar diferencia maxima\")\n    print(\"[FI] Sortir\")\ndef registrar_temperatura():\n    pregunta_temperatura = input(\"Escriu les temperatures d'aquesta setmana separades per espais: \")\n    temperaturas = []",
         "detail": "observatori",
         "documentation": {}
     },
@@ -76,7 +76,7 @@
         "kind": 2,
         "importPath": "observatori",
         "description": "observatori",
-        "peekOfCode": "def registrar_temperatura():\n    pregunta_temperatura = input(\"Escriu les temperatures d'aquesta setmana separades per espais: \")",
+        "peekOfCode": "def registrar_temperatura():\n    pregunta_temperatura = input(\"Escriu les temperatures d'aquesta setmana separades per espais: \")\n    temperaturas = []",
         "detail": "observatori",
         "documentation": {}
     },

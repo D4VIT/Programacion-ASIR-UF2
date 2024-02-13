@@ -42,4 +42,9 @@ def calcular_temperatura_media(temperaturas):
     for tiempo in temperaturas:
         if tiempo == -1:
             break
+        suma += tiempo
+        contador += 1
+    if contador == 0:
+        return 0
+    return suma / contador
     

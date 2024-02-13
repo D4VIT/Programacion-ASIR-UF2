@@ -94,7 +94,7 @@
         "kind": 2,
         "importPath": "observatori",
         "description": "observatori",
-        "peekOfCode": "def calcular_temperatura_media(temperaturas):\n    suma = 0\n    contador = 0\n    for tiempo in temperaturas:\n        if tiempo == -1:\n            break",
+        "peekOfCode": "def calcular_temperatura_media(temperaturas):\n    suma = 0\n    contador = 0\n    for tiempo in temperaturas:\n        if tiempo == -1:\n            break\n        suma += tiempo\n        contador += 1\n    if contador == 0:\n        return 0",
         "detail": "observatori",
         "documentation": {}
     },

@@ -1,5 +1,3 @@
-from observatori import calcular_diferencia_maxima
-
 def menu():
     print("Benvingut al registre de temperatures")
     print("--------------------------------------")
@@ -41,4 +39,7 @@ def calcular_diferencia_maxima():
 def calcular_temperatura_media(temperaturas):
     suma = 0
     contador = 0
+    for tiempo in temperaturas:
+        if tiempo == -1:
+            break
     

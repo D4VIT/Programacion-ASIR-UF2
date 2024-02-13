@@ -5,6 +5,7 @@ def menu():
     print("[MJ] Consultar temperatura mitjana")
     print("[DF] Consultar diferencia maxima")
     print("[FI] Sortir")
+    opcion = input("Opcio: ")
 
 def registrar_temperatura():
     pregunta_temperatura = input("Escriu les temperatures d'aquesta setmana separades per espais: ")

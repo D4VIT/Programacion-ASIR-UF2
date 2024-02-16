@@ -4,7 +4,7 @@
         "kind": 2,
         "importPath": "FraseAmbMesAs",
         "description": "FraseAmbMesAs",
-        "peekOfCode": "def FraseAmbMesAs():\n    maximo_numero_de_a = 0\n    frase_con_mas_a = \"\"\n    while True:\n        frase = input(\"Escriu una frase:\\n> \")\n        if frase == \"fi\":\n            break",
+        "peekOfCode": "def FraseAmbMesAs():\n    maximo_numero_de_a = 0\n    frase_con_mas_a = \"\"\n    while True:\n        frase = input(\"Escriu una frase:\\n> \")\n        if frase == \"fi\":\n            break\n        numero_a = 0\n        for caracter in frase:\n            if caracter == 'a' or caracter == 'A':",
         "detail": "FraseAmbMesAs",
         "documentation": {}
     },

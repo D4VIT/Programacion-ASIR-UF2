@@ -7,3 +7,7 @@ def FraseAmbMesAs():
 
         if frase == "fi":
             break
+
+        numero_a = 0
+        for caracter in frase:
+            if caracter == 'a' or caracter == 'A':

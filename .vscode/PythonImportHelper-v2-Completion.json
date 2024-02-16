@@ -1,5 +1,14 @@
 [
     {
+        "label": "FraseAmbMesAs",
+        "kind": 2,
+        "importPath": "FraseAmbMesAs",
+        "description": "FraseAmbMesAs",
+        "peekOfCode": "def FraseAmbMesAs():",
+        "detail": "FraseAmbMesAs",
+        "documentation": {}
+    },
+    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "biblioteca",

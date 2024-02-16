@@ -11,3 +11,8 @@ def FraseAmbMesAs():
         numero_a = 0
         for caracter in frase:
             if caracter == 'a' or caracter == 'A':
+                numero_a += 1
+
+        if numero_a > maximo_numero_de_a:
+            maximo_numero_de_a = numero_a
+            frase_con_mas_a = frase

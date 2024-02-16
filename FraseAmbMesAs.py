@@ -4,3 +4,6 @@ def FraseAmbMesAs():
 
     while True:
         frase = input("Escriu una frase:\n> ")
+
+        if frase == "fi":
+            break

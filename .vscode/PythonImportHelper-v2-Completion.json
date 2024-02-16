@@ -4,7 +4,7 @@
         "kind": 2,
         "importPath": "FraseAmbMesAs",
         "description": "FraseAmbMesAs",
-        "peekOfCode": "def FraseAmbMesAs():\n    maximo_numero_de_a = 0\n    frase_con_mas_a = \"\"",
+        "peekOfCode": "def FraseAmbMesAs():\n    maximo_numero_de_a = 0\n    frase_con_mas_a = \"\"\n    while True:\n        frase = input(\"Escriu una frase:\\n> \")",
         "detail": "FraseAmbMesAs",
         "documentation": {}
     },

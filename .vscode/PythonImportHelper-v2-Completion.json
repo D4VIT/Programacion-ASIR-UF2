@@ -9,6 +9,15 @@
         "documentation": {}
     },
     {
+        "label": "tirades",
+        "kind": 5,
+        "importPath": "CalculTirada",
+        "description": "CalculTirada",
+        "peekOfCode": "tirades = [0] * 11",
+        "detail": "CalculTirada",
+        "documentation": {}
+    },
+    {
         "label": "FraseAmbMesAs",
         "kind": 2,
         "importPath": "FraseAmbMesAs",

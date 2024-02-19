@@ -11,3 +11,5 @@ def calcular_probabilitat(valor):
 
     probabilitat = comptador * 100 / sum(tirades)
     print(f"La probabilitat es {probabilitat}%.")
+
+tirades = [0] * 11

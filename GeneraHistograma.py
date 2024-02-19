@@ -16,3 +16,7 @@ def imprimir_histograma(histograma):
     for i, repeticions in enumerate(histograma, inicia=2):
         print(f"{i}: {'*' * repeticions}")
     print(f"El maxim es {histograma.index(max_repeticions) +2} amb {max_repeticions} repeticions.")
+
+tirades = 1000
+histograma = generar_histograma(tirades)
+imprimir_histograma(histograma)

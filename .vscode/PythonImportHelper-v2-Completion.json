@@ -58,7 +58,25 @@
         "kind": 2,
         "importPath": "GeneraHistograma",
         "description": "GeneraHistograma",
-        "peekOfCode": "def imprimir_histograma(histograma):\n    max_repeticions = max(histograma)\n    print(\"Histograma:\")\n    for i, repeticions in enumerate(histograma, inicia=2):\n        print(f\"{i}: {'*' * repeticions}\")\n    print(f\"El maxim es {histograma.index(max_repeticions) +2} amb {max_repeticions} repeticions.\")",
+        "peekOfCode": "def imprimir_histograma(histograma):\n    max_repeticions = max(histograma)\n    print(\"Histograma:\")\n    for i, repeticions in enumerate(histograma, inicia=2):\n        print(f\"{i}: {'*' * repeticions}\")\n    print(f\"El maxim es {histograma.index(max_repeticions) +2} amb {max_repeticions} repeticions.\")\ntirades = 1000\nhistograma = generar_histograma(tirades)\nimprimir_histograma(histograma)",
+        "detail": "GeneraHistograma",
+        "documentation": {}
+    },
+    {
+        "label": "tirades",
+        "kind": 5,
+        "importPath": "GeneraHistograma",
+        "description": "GeneraHistograma",
+        "peekOfCode": "tirades = 1000\nhistograma = generar_histograma(tirades)\nimprimir_histograma(histograma)",
+        "detail": "GeneraHistograma",
+        "documentation": {}
+    },
+    {
+        "label": "histograma",
+        "kind": 5,
+        "importPath": "GeneraHistograma",
+        "description": "GeneraHistograma",
+        "peekOfCode": "histograma = generar_histograma(tirades)\nimprimir_histograma(histograma)",
         "detail": "GeneraHistograma",
         "documentation": {}
     },

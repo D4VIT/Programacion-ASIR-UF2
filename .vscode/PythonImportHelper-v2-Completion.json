@@ -1,5 +1,14 @@
 [
     {
+        "label": "calcular_probabilitat",
+        "kind": 2,
+        "importPath": "CalculTirada",
+        "description": "CalculTirada",
+        "peekOfCode": "def calcular_probabilitat(valor):",
+        "detail": "CalculTirada",
+        "documentation": {}
+    },
+    {
         "label": "FraseAmbMesAs",
         "kind": 2,
         "importPath": "FraseAmbMesAs",

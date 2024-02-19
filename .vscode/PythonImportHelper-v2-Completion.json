@@ -40,7 +40,16 @@
         "kind": 2,
         "importPath": "GeneraHistograma",
         "description": "GeneraHistograma",
-        "peekOfCode": "def generar_tirada():\n    seed = 12345\n    seed = (1103515245 * seed + 12345) % (2**31 - 1)\n    return (seed % 6) + 1 + (seed // 6) % 6 + 1",
+        "peekOfCode": "def generar_tirada():\n    seed = 12345\n    seed = (1103515245 * seed + 12345) % (2**31 - 1)\n    return (seed % 6) + 1 + (seed // 6) % 6 + 1\ndef generar_histograma(num_tirades):\n    histograma = [0] * 11\n    for _ in range(num_tirades):\n        tirada = generar_tirada()\n        histograma[tirada - 2] += 1\n    return histograma",
+        "detail": "GeneraHistograma",
+        "documentation": {}
+    },
+    {
+        "label": "generar_histograma",
+        "kind": 2,
+        "importPath": "GeneraHistograma",
+        "description": "GeneraHistograma",
+        "peekOfCode": "def generar_histograma(num_tirades):\n    histograma = [0] * 11\n    for _ in range(num_tirades):\n        tirada = generar_tirada()\n        histograma[tirada - 2] += 1\n    return histograma",
         "detail": "GeneraHistograma",
         "documentation": {}
     },

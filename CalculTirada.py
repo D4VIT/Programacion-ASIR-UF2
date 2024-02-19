@@ -8,3 +8,6 @@ def calcular_probabilitat(valor):
     for tirada in range(2, 13):
         if tirada <= valor:
             comptador += tirades[tirada - 2]
+
+    probabilitat = comptador * 100 / sum(tirades)
+    print(f"La probabilitat es {probabilitat}%.")

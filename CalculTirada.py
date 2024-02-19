@@ -5,3 +5,6 @@ def calcular_probabilitat(valor):
     
 
     comptador = 0
+    for tirada in range(2, 13):
+        if tirada <= valor:
+            comptador += tirades[tirada - 2]

@@ -4,7 +4,7 @@
         "kind": 2,
         "importPath": "CalculTirada",
         "description": "CalculTirada",
-        "peekOfCode": "def calcular_probabilitat(valor):\n    if valor < 2 or valor > 12:\n        print(\"El valor no es entre 2 i 12.\")\n        return\n    comptador = 0",
+        "peekOfCode": "def calcular_probabilitat(valor):\n    if valor < 2 or valor > 12:\n        print(\"El valor no es entre 2 i 12.\")\n        return\n    comptador = 0\n    for tirada in range(2, 13):\n        if tirada <= valor:\n            comptador += tirades[tirada - 2]",
         "detail": "CalculTirada",
         "documentation": {}
     },

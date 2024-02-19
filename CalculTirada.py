@@ -20,3 +20,5 @@ for dau1 in range(1, 7):
         tirades[suma - 2] += 1
 
 valor = int(input("Escriu el valor a calcular [2 - 12]: "))
+
+calcular_probabilitat(valor)

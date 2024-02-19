@@ -13,7 +13,7 @@
         "kind": 5,
         "importPath": "CalculTirada",
         "description": "CalculTirada",
-        "peekOfCode": "tirades = [0] * 11",
+        "peekOfCode": "tirades = [0] * 11\nfor dau1 in range(1, 7):\n    for dau2 in range(1, 7):\n        suma = dau1 + dau2\n        tirades[suma - 2] += 1",
         "detail": "CalculTirada",
         "documentation": {}
     },

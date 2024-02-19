@@ -13,3 +13,8 @@ def calcular_probabilitat(valor):
     print(f"La probabilitat es {probabilitat}%.")
 
 tirades = [0] * 11
+
+for dau1 in range(1, 7):
+    for dau2 in range(1, 7):
+        suma = dau1 + dau2
+        tirades[suma - 2] += 1

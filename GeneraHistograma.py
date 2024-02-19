@@ -13,7 +13,7 @@ def generar_histograma(num_tirades):
 def imprimir_histograma(histograma):
     max_repeticions = max(histograma)
     print("Histograma:")
-    for i, repeticions in enumerate(histograma, inicia=2):
+    for i, repeticions in enumerate(histograma, start=2):
         print(f"{i}: {'*' * repeticions}")
     print(f"El maxim es {histograma.index(max_repeticions) +2} amb {max_repeticions} repeticions.")
 

@@ -18,3 +18,5 @@ for dau1 in range(1, 7):
     for dau2 in range(1, 7):
         suma = dau1 + dau2
         tirades[suma - 2] += 1
+
+valor = int(input("Escriu el valor a calcular [2 - 12]: "))

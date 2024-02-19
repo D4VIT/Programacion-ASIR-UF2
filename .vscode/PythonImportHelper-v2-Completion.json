@@ -36,6 +36,15 @@
         "documentation": {}
     },
     {
+        "label": "generar_tirada",
+        "kind": 2,
+        "importPath": "GeneraHistograma",
+        "description": "GeneraHistograma",
+        "peekOfCode": "def generar_tirada():",
+        "detail": "GeneraHistograma",
+        "documentation": {}
+    },
+    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "biblioteca",

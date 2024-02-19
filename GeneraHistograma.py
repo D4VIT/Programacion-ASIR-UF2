@@ -1,1 +1,1 @@
-
+def generar_tirada():

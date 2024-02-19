@@ -49,7 +49,16 @@
         "kind": 2,
         "importPath": "GeneraHistograma",
         "description": "GeneraHistograma",
-        "peekOfCode": "def generar_histograma(num_tirades):\n    histograma = [0] * 11\n    for _ in range(num_tirades):\n        tirada = generar_tirada()\n        histograma[tirada - 2] += 1\n    return histograma",
+        "peekOfCode": "def generar_histograma(num_tirades):\n    histograma = [0] * 11\n    for _ in range(num_tirades):\n        tirada = generar_tirada()\n        histograma[tirada - 2] += 1\n    return histograma\ndef imprimir_histograma(histograma):\n    max_repeticions = max(histograma)\n    print(\"Histograma:\")\n    for i, repeticions in enumerate(histograma, inicia=2):",
+        "detail": "GeneraHistograma",
+        "documentation": {}
+    },
+    {
+        "label": "imprimir_histograma",
+        "kind": 2,
+        "importPath": "GeneraHistograma",
+        "description": "GeneraHistograma",
+        "peekOfCode": "def imprimir_histograma(histograma):\n    max_repeticions = max(histograma)\n    print(\"Histograma:\")\n    for i, repeticions in enumerate(histograma, inicia=2):\n        print(f\"{i}: {'*' * repeticions}\")\n    print(f\"El maxim es {histograma.index(max_repeticions) +2} amb {max_repeticions} repeticions.\")",
         "detail": "GeneraHistograma",
         "documentation": {}
     },

@@ -40,7 +40,7 @@
         "kind": 2,
         "importPath": "GeneraHistograma",
         "description": "GeneraHistograma",
-        "peekOfCode": "def generar_tirada():",
+        "peekOfCode": "def generar_tirada():\n    seed = 12345\n    seed = (1103515245 * seed + 12345) % (2**31 - 1)\n    return (seed % 6) + 1 + (seed // 6) % 6 + 1",
         "detail": "GeneraHistograma",
         "documentation": {}
     },

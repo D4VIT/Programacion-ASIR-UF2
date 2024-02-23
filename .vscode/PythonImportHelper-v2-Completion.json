@@ -27,6 +27,15 @@
         "documentation": {}
     },
     {
+        "label": "generar_combinacio_secreta",
+        "kind": 2,
+        "importPath": "EndevinalaCombinaciódeLletresSecreta",
+        "description": "EndevinalaCombinaciódeLletresSecreta",
+        "peekOfCode": "def generar_combinacio_secreta():",
+        "detail": "EndevinalaCombinaciódeLletresSecreta",
+        "documentation": {}
+    },
+    {
         "label": "FraseAmbMesAs",
         "kind": 2,
         "importPath": "FraseAmbMesAs",

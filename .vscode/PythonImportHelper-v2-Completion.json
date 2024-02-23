@@ -31,7 +31,16 @@
         "kind": 2,
         "importPath": "EndevinalaCombinaciódeLletresSecreta",
         "description": "EndevinalaCombinaciódeLletresSecreta",
-        "peekOfCode": "def generar_combinacio_secreta():\n    combinacio = ''\n    lletres = 'abcdefghijklmnopqrstuvwxyz'\n    seed = 12345\n    for _ in range(5):\n        index = seed % len(lletres)\n        combinacio += lletres[index]\n        seed //= 2\n    return combinacio",
+        "peekOfCode": "def generar_combinacio_secreta():\n    combinacio = ''\n    lletres = 'abcdefghijklmnopqrstuvwxyz'\n    seed = 12345\n    for _ in range(5):\n        index = seed % len(lletres)\n        combinacio += lletres[index]\n        seed //= 2\n    return combinacio\ndef donar_pista(combinacio_secreta, intent):",
+        "detail": "EndevinalaCombinaciódeLletresSecreta",
+        "documentation": {}
+    },
+    {
+        "label": "donar_pista",
+        "kind": 2,
+        "importPath": "EndevinalaCombinaciódeLletresSecreta",
+        "description": "EndevinalaCombinaciódeLletresSecreta",
+        "peekOfCode": "def donar_pista(combinacio_secreta, intent):",
         "detail": "EndevinalaCombinaciódeLletresSecreta",
         "documentation": {}
     },

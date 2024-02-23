@@ -7,3 +7,5 @@ def generar_combinacio_secreta():
         combinacio += lletres[index]
         seed //= 2
     return combinacio
+
+def donar_pista(combinacio_secreta, intent):

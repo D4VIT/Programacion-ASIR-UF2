@@ -31,7 +31,7 @@
         "kind": 2,
         "importPath": "EndevinalaCombinaciódeLletresSecreta",
         "description": "EndevinalaCombinaciódeLletresSecreta",
-        "peekOfCode": "def generar_combinacio_secreta():",
+        "peekOfCode": "def generar_combinacio_secreta():\n    combinacio = ''\n    lletres = 'abcdefghijklmnopqrstuvwxyz'\n    seed = 12345",
         "detail": "EndevinalaCombinaciódeLletresSecreta",
         "documentation": {}
     },

@@ -9,3 +9,8 @@ def generar_combinacio_secreta():
     return combinacio
 
 def donar_pista(combinacio_secreta, intent):
+    pista = ''
+    for i in range(len(combinacio_secreta)):
+        if intent[i] == combinacio_secreta[i]:
+            pista += 'O'
+        elif

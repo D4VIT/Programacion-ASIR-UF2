@@ -40,7 +40,7 @@
         "kind": 2,
         "importPath": "EndevinalaCombinaciódeLletresSecreta",
         "description": "EndevinalaCombinaciódeLletresSecreta",
-        "peekOfCode": "def donar_pista(combinacio_secreta, intent):",
+        "peekOfCode": "def donar_pista(combinacio_secreta, intent):\n    pista = ''\n    for i in range(len(combinacio_secreta)):\n        if intent[i] == combinacio_secreta[i]:\n            pista += 'O'\n        elif",
         "detail": "EndevinalaCombinaciódeLletresSecreta",
         "documentation": {}
     },

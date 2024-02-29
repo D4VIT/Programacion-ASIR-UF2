@@ -17,3 +17,13 @@ fun dividir(numero1: Int, numero2: Int): Int? {
         null
     }
 }
+
+fun main() {
+    val a = 10
+    val b = 5
+
+    println("Suma: ${sumar(a, b)}")
+    println("Resta: ${restar(a, b)}")
+    println("Producte: ${multiplicar(a, b)}")
+
+}

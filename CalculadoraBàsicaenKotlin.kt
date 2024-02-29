@@ -26,4 +26,11 @@ fun main() {
     println("Resta: ${restar(a, b)}")
     println("Producte: ${multiplicar(a, b)}")
 
+    val division = dividir(a, b)
+    if (division != null) {
+        println("Divisio: $division")
+    } else {
+        println("No es pot dividir per zero")
+    }
+
 }

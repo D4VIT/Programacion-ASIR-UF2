@@ -5,3 +5,7 @@ fun sumar(numero1: Int, numero2: Int): Int {
 fun restar(numero1: Int, numero2: Int): Int {
     return numero1 - numero2
 }
+
+fun multiplicar(numero1: Int, numero2: Int): Int {
+    return numero1 * numero2
+}

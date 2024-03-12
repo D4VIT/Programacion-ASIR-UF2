@@ -99,6 +99,24 @@
         "documentation": {}
     },
     {
+        "label": "moure",
+        "kind": 2,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "def moure(coordenada, direccio):\n    x, y = coordenada\n    if direccio == 'dreta':\n        nova_coordenada = (x + 1, y)",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
+        "label": "coordenada",
+        "kind": 5,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "coordenada = (0, 0)\ndef moure(coordenada, direccio):\n    x, y = coordenada\n    if direccio == 'dreta':\n        nova_coordenada = (x + 1, y)",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "biblioteca",

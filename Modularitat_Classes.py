@@ -10,3 +10,6 @@ def moure(coordenada, direccio):
         nova_coordenada = (x, y + 1)
     elif direccio == 'avall':
         nova_coordenada = (x, y - 1)
+    return nova_coordenada
+
+

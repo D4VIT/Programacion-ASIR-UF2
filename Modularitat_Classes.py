@@ -8,3 +8,5 @@ def moure(coordenada, direccio):
         nova_coordenada = (x - 1, y)
     elif direccio == 'amunt':
         nova_coordenada = (x, y + 1)
+    elif direccio == 'avall':
+        nova_coordenada = (x, y - 1)

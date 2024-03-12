@@ -12,4 +12,5 @@ def moure(coordenada, direccio):
         nova_coordenada = (x, y - 1)
     return nova_coordenada
 
-
+coordenada = moure(coordenada, 'dreta')
+print(f"Nova coordenada despres de moure a la dreta: {coordenada}")

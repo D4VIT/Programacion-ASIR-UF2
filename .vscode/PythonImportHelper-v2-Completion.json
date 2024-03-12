@@ -117,6 +117,15 @@
         "documentation": {}
     },
     {
+        "label": "coordenada",
+        "kind": 5,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "coordenada = moure(coordenada, 'dreta')\nprint(f\"Nova coordenada despres de moure a la dreta: {coordenada}\")",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
         "label": "mostrar_menu",
         "kind": 2,
         "importPath": "biblioteca",

@@ -15,5 +15,10 @@ fun moureAvall(coordenada: Coordenada): Coordenada {
 }
 
 fun executarMoviment(coordenada: Coordenada, moviment: String): Coordenada {
-    
+    return when (moviment) {
+        "dreta" -> moureDreta(coordenada)
+        "esquerra" -> moureEsquerra(coordenada)
+        "amunt" -> moureAmunt(coordenada)
+        "avall" -> moureAvall(coordenada)
+    }
 }

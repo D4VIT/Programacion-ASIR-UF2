@@ -130,7 +130,7 @@
         "kind": 2,
         "importPath": "Modularitat_Classes",
         "description": "Modularitat_Classes",
-        "peekOfCode": "def moure_amunt(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y + 1)\n    return nova_coordenada\ndef moure_avall(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y - 1)\n    return nova_coordenada",
+        "peekOfCode": "def moure_amunt(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y + 1)\n    return nova_coordenada\ndef moure_avall(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y - 1)\n    return nova_coordenada\ndef executar_moviment(coordenada, moviment):\n    if moviment == \"dreta\":",
         "detail": "Modularitat_Classes",
         "documentation": {}
     },
@@ -139,7 +139,16 @@
         "kind": 2,
         "importPath": "Modularitat_Classes",
         "description": "Modularitat_Classes",
-        "peekOfCode": "def moure_avall(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y - 1)\n    return nova_coordenada",
+        "peekOfCode": "def moure_avall(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y - 1)\n    return nova_coordenada\ndef executar_moviment(coordenada, moviment):\n    if moviment == \"dreta\":\n        return moure_dreta(coordenada)\n    elif moviment == \"esquerra\":\n        return moure_esquerra(coordenada)\n    elif moviment == \"amunt\":",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
+        "label": "executar_moviment",
+        "kind": 2,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "def executar_moviment(coordenada, moviment):\n    if moviment == \"dreta\":\n        return moure_dreta(coordenada)\n    elif moviment == \"esquerra\":\n        return moure_esquerra(coordenada)\n    elif moviment == \"amunt\":\n        return moure_amunt(coordenada)\n    elif moviment == \"avall\":\n        return moure_avall(coordenada)",
         "detail": "Modularitat_Classes",
         "documentation": {}
     },

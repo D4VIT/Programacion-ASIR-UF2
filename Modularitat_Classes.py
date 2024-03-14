@@ -1,5 +1,3 @@
-import Modularitat_Classes
-
 def moure_dreta(coordenada):
     x, y = coordenada
     nova_coordenada = (x + 1, y)

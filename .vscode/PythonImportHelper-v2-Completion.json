@@ -1,14 +1,5 @@
 [
     {
-        "label": "Modularitat_Classes",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "Modularitat_Classes",
-        "description": "Modularitat_Classes",
-        "detail": "Modularitat_Classes",
-        "documentation": {}
-    },
-    {
         "label": "calcular_probabilitat",
         "kind": 2,
         "importPath": "CalculTirada",

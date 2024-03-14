@@ -1,3 +1,5 @@
+data class Coordenada(val x: Int, val y: Int)
+
 fun moureDreta(coordenada: Coordenada): Coordenada {
     return Coordenada(coordenada.x + 1, coordenada.y)
 }
@@ -15,10 +17,14 @@ fun moureAvall(coordenada: Coordenada): Coordenada {
 }
 
 fun executarMoviment(coordenada: Coordenada, moviment: String): Coordenada {
-    return when (moviment) {
-        "dreta" -> moureDreta(coordenada)
-        "esquerra" -> moureEsquerra(coordenada)
-        "amunt" -> moureAmunt(coordenada)
-        "avall" -> moureAvall(coordenada)
+    if (moviment == "dreta") {
+        return moureDreta(coordenada)
+    } else if (moviment == "esquerra") {
+        return moureEsquerra(coordenada)
+    } else if (moviment == "amunt") {
+        return moureAmunt(coordenada)
+    } else if (moviment == "avall") {
+        return moureAvall(coordenada)
+
     }
 }

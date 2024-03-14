@@ -1,5 +1,13 @@
 [
     {
+        "label": "coordenada",
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "isExtraImport": true,
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
         "label": "calcular_probabilitat",
         "kind": 2,
         "importPath": "CalculTirada",
@@ -99,38 +107,20 @@
         "documentation": {}
     },
     {
-        "label": "moure",
+        "label": "moure_dreta",
         "kind": 2,
         "importPath": "Modularitat_Classes",
         "description": "Modularitat_Classes",
-        "peekOfCode": "def moure(coordenada, direccio):\n    x, y = coordenada\n    if direccio == 'dreta':\n        nova_coordenada = (x + 1, y)\n    elif direccio == 'esquerra':\n        nova_coordenada = (x - 1, y)\n    elif direccio == 'amunt':\n        nova_coordenada = (x, y + 1)\n    elif direccio == 'avall':\n        nova_coordenada = (x, y - 1)",
+        "peekOfCode": "def moure_dreta(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x + 1, y)\n    return nova_coordenada\ndef moure_esquerra(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x - 1, y)\n    return nova_coordenada",
         "detail": "Modularitat_Classes",
         "documentation": {}
     },
     {
-        "label": "coordenada",
-        "kind": 5,
+        "label": "moure_esquerra",
+        "kind": 2,
         "importPath": "Modularitat_Classes",
         "description": "Modularitat_Classes",
-        "peekOfCode": "coordenada = (0, 0)\ndef moure(coordenada, direccio):\n    x, y = coordenada\n    if direccio == 'dreta':\n        nova_coordenada = (x + 1, y)\n    elif direccio == 'esquerra':\n        nova_coordenada = (x - 1, y)\n    elif direccio == 'amunt':\n        nova_coordenada = (x, y + 1)\n    elif direccio == 'avall':",
-        "detail": "Modularitat_Classes",
-        "documentation": {}
-    },
-    {
-        "label": "coordenada",
-        "kind": 5,
-        "importPath": "Modularitat_Classes",
-        "description": "Modularitat_Classes",
-        "peekOfCode": "coordenada = moure(coordenada, 'dreta')\nprint(f\"Nova coordenada despres de moure a la dreta: {coordenada}\")\ncoordenada = moure(coordenada, 'amunt')\nprint(f\"Nova coordenada despres de moure amunt: {coordenada}\")",
-        "detail": "Modularitat_Classes",
-        "documentation": {}
-    },
-    {
-        "label": "coordenada",
-        "kind": 5,
-        "importPath": "Modularitat_Classes",
-        "description": "Modularitat_Classes",
-        "peekOfCode": "coordenada = moure(coordenada, 'amunt')\nprint(f\"Nova coordenada despres de moure amunt: {coordenada}\")",
+        "peekOfCode": "def moure_esquerra(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x - 1, y)\n    return nova_coordenada",
         "detail": "Modularitat_Classes",
         "documentation": {}
     },

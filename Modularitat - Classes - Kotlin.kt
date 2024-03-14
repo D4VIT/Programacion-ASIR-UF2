@@ -14,4 +14,6 @@ fun moureAvall(coordenada: Coordenada): Coordenada {
     return Coordenada(coordenada.x, coordenada.y - 1)
 }
 
-
+fun executarMoviment(coordenada: Coordenada, moviment: String): Coordenada {
+    
+}

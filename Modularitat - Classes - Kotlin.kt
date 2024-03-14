@@ -28,3 +28,13 @@ fun executarMoviment(coordenada: Coordenada, moviment: String): Coordenada {
 
     }
 }
+
+fun main() {
+    var coordenada = Coordenada(0, 0)
+
+    coordenada = executarMoviment(coordenada, "dreta")
+    println("Nova coordenada despres de moure a la dreta: $coordenada")
+
+    coordenada = executarMoviment(coordenada, "amunt")
+    println("Nova coordenada despres de moure amunt: $coordenada")
+}

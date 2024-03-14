@@ -29,3 +29,12 @@ def executar_moviment(coordenada, moviment):
         return moure_amunt(coordenada)
     elif moviment == "avall":
         return moure_avall(coordenada)
+
+coordenada = (0, 0)
+
+coordenada = executar_moviment(coordenada, 'dreta')
+print(f"Nova coordenada després de moure a la dreta: {coordenada}")
+
+coordenada = executar_moviment(coordenada, "amunt")
+print(f"Nova coordenada després de moure amunt: {coordenada}")
+

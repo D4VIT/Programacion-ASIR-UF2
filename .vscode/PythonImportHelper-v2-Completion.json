@@ -148,7 +148,34 @@
         "kind": 2,
         "importPath": "Modularitat_Classes",
         "description": "Modularitat_Classes",
-        "peekOfCode": "def executar_moviment(coordenada, moviment):\n    if moviment == \"dreta\":\n        return moure_dreta(coordenada)\n    elif moviment == \"esquerra\":\n        return moure_esquerra(coordenada)\n    elif moviment == \"amunt\":\n        return moure_amunt(coordenada)\n    elif moviment == \"avall\":\n        return moure_avall(coordenada)",
+        "peekOfCode": "def executar_moviment(coordenada, moviment):\n    if moviment == \"dreta\":\n        return moure_dreta(coordenada)\n    elif moviment == \"esquerra\":\n        return moure_esquerra(coordenada)\n    elif moviment == \"amunt\":\n        return moure_amunt(coordenada)\n    elif moviment == \"avall\":\n        return moure_avall(coordenada)\ncoordenada = (0, 0)",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
+        "label": "coordenada",
+        "kind": 5,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "coordenada = (0, 0)\ncoordenada = executar_moviment(coordenada, 'dreta')\nprint(f\"Nova coordenada després de moure a la dreta: {coordenada}\")\ncoordenada = executar_moviment(coordenada, \"amunt\")\nprint(f\"Nova coordenada després de moure amunt: {coordenada}\")",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
+        "label": "coordenada",
+        "kind": 5,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "coordenada = executar_moviment(coordenada, 'dreta')\nprint(f\"Nova coordenada després de moure a la dreta: {coordenada}\")\ncoordenada = executar_moviment(coordenada, \"amunt\")\nprint(f\"Nova coordenada després de moure amunt: {coordenada}\")",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
+        "label": "coordenada",
+        "kind": 5,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "coordenada = executar_moviment(coordenada, \"amunt\")\nprint(f\"Nova coordenada després de moure amunt: {coordenada}\")",
         "detail": "Modularitat_Classes",
         "documentation": {}
     },

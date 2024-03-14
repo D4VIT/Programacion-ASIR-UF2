@@ -1,9 +1,10 @@
 [
     {
-        "label": "coordenada",
+        "label": "Modularitat_Classes",
+        "kind": 6,
+        "isExtraImport": true,
         "importPath": "Modularitat_Classes",
         "description": "Modularitat_Classes",
-        "isExtraImport": true,
         "detail": "Modularitat_Classes",
         "documentation": {}
     },
@@ -111,7 +112,7 @@
         "kind": 2,
         "importPath": "Modularitat_Classes",
         "description": "Modularitat_Classes",
-        "peekOfCode": "def moure_dreta(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x + 1, y)\n    return nova_coordenada\ndef moure_esquerra(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x - 1, y)\n    return nova_coordenada",
+        "peekOfCode": "def moure_dreta(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x + 1, y)\n    return nova_coordenada\ndef moure_esquerra(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x - 1, y)\n    return nova_coordenada\ndef moure_amunt(coordenada):\n    x, y = coordenada",
         "detail": "Modularitat_Classes",
         "documentation": {}
     },
@@ -120,7 +121,25 @@
         "kind": 2,
         "importPath": "Modularitat_Classes",
         "description": "Modularitat_Classes",
-        "peekOfCode": "def moure_esquerra(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x - 1, y)\n    return nova_coordenada",
+        "peekOfCode": "def moure_esquerra(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x - 1, y)\n    return nova_coordenada\ndef moure_amunt(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y + 1)\n    return nova_coordenada\ndef moure_avall(coordenada):\n    x, y = coordenada",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
+        "label": "moure_amunt",
+        "kind": 2,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "def moure_amunt(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y + 1)\n    return nova_coordenada\ndef moure_avall(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y - 1)\n    return nova_coordenada",
+        "detail": "Modularitat_Classes",
+        "documentation": {}
+    },
+    {
+        "label": "moure_avall",
+        "kind": 2,
+        "importPath": "Modularitat_Classes",
+        "description": "Modularitat_Classes",
+        "peekOfCode": "def moure_avall(coordenada):\n    x, y = coordenada\n    nova_coordenada = (x, y - 1)\n    return nova_coordenada",
         "detail": "Modularitat_Classes",
         "documentation": {}
     },

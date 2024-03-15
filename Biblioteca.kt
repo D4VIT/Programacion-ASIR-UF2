@@ -1,4 +1,18 @@
-class Libro(val titulo: String, val autor: String, var exemplaresDisponibles: Int)
+class Libro(val titulo: String, val autor: String, var exemplaresDisponibles: Int) {
+    fun prestar() {
+        if (exemplaresDisponibles > 0) {
+            exemplaresDisponibles--
+        }
+    }
+
+    fun retornar() {
+        exemplaresDisponibles++
+    }
+
+    fun informacion(): String {
+        return "Libro: $titulo, Autor: $autor, Ejemplares Disponibles: $exemplaresDisponibles"
+    }
+}
 
 
 

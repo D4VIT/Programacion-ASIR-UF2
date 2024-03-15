@@ -28,6 +28,10 @@ class Socio(val nombre: String, val apellido: String, val numeroSocio: Int) {
     }
 }
 
+class Prestamo(val libro: Libro, val socio: Socio, val fechaPrestamos: String) {
+    
+}
+
 
 
 

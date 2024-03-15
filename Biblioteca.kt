@@ -60,4 +60,18 @@ fun main() {
     println(libro1.informacion())
     println(socio1.informacion())
     println(prestamo1.informacion())
+
+    println(libro1.informacion())
+    println(socio1.informacion())
+    println(prestamo1.informacion())
+
+    socio1.solicitarPrestamo()
+    socio2.solicitarPrestamo()
+    socio1.retornarPrestamo()
+    socio2.retornarPrestamo()
+
+    prestamo1.registrarPrestamo()
+    prestamo2.registrarPrestamo()
+    prestamo1.retornarPrestamo()
+    prestamo2.retornarPrestamo()
 }

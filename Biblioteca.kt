@@ -37,7 +37,10 @@ class Prestamo(val libro: Libro, val socio: Socio, val fechaPrestamo: String) {
     }
 
     fun retornarPrestamo() {
-        //e
+        println("Se ha retornado un préstamo:")
+        println("Libro: ${libro.titulo}")
+        println("Socio: ${socio.nombre} ${socio.apellido}")
+        println("Fecha de Préstamo: $fechaPrestamo")
     }
 
     fun informacion(): String {

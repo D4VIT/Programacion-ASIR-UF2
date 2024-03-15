@@ -8,4 +8,8 @@ fun main() {
 
     val prestamo1 = Prestamo(libro1, socio1, "01/10/2021")
     val prestamo2 = Prestamo(libro2, socio2, "02/10/2021")
+
+    println(libro1.informacion())
+    println(socio1.informacion())
+    println(prestamo1.informacion())
 }

@@ -1,3 +1,17 @@
+class Libro(val titulo: String, val autor: String, var exemplaresDisponibles: Int)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 fun main() {
     val libro1 = Libro("El Señor de los Anillos", "J.R.R. Tolkien", 2)

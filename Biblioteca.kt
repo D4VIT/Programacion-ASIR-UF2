@@ -28,8 +28,18 @@ class Socio(val nombre: String, val apellido: String, val numeroSocio: Int) {
     }
 }
 
-class Prestamo(val libro: Libro, val socio: Socio, val fechaPrestamos: String) {
-    
+class Prestamo(val libro: Libro, val socio: Socio, val fechaPrestamo: String) {
+    fun registrarPrestamo() {
+        //e
+    }
+
+    fun retornarPrestamo() {
+        //e
+    }
+
+    fun informacion(): String {
+        return "Prestamo: Libro: ${libro.titulo}, Socio: ${socio.nombre} ${socio.apellido}, Fecha de prestamo: $fechaPrestamo"
+    }
 }
 
 

@@ -16,11 +16,11 @@ class Libro(val titulo: String, val autor: String, var exemplaresDisponibles: In
 
 class Socio(val nombre: String, val apellido: String, val numeroSocio: Int) {
     fun solicitarPrestamo() {
-        //e
+        println("El socio $nombre $apellido (Número de socio: $numeroSocio) ha solicitado un préstamo.")
     }
 
     fun retornarPrestamo() {
-        //e
+        println("El socio $nombre $apellido (Número de socio: $numeroSocio) ha retornado un préstamo.")
     }
 
     fun informacion(): String {
@@ -41,20 +41,6 @@ class Prestamo(val libro: Libro, val socio: Socio, val fechaPrestamo: String) {
         return "Prestamo: Libro: ${libro.titulo}, Socio: ${socio.nombre} ${socio.apellido}, Fecha de prestamo: $fechaPrestamo"
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 fun main() {
     val libro1 = Libro("El Señor de los Anillos", "J.R.R. Tolkien", 2)
     val libro2 = Libro("Harry Potter", "J.K. Rowling", 3)

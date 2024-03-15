@@ -15,7 +15,17 @@ class Libro(val titulo: String, val autor: String, var exemplaresDisponibles: In
 }
 
 class Socio(val nombre: String, val apellido: String, val numeroSocio: Int) {
-    
+    fun solicitarPrestamo() {
+        //e
+    }
+
+    fun retornarPrestamo() {
+        //e
+    }
+
+    fun informacion(): String {
+        return "Socio: $nombre $apellido, Numero de socio: $numeroSocio"
+    }
 }
 
 

@@ -30,7 +30,10 @@ class Socio(val nombre: String, val apellido: String, val numeroSocio: Int) {
 
 class Prestamo(val libro: Libro, val socio: Socio, val fechaPrestamo: String) {
     fun registrarPrestamo() {
-        //e
+        println("Se ha registrado un préstamo:")
+        println("Libro: ${libro.titulo}")
+        println("Socio: ${socio.nombre} ${socio.apellido}")
+        println("Fecha de Préstamo: $fechaPrestamo")
     }
 
     fun retornarPrestamo() {

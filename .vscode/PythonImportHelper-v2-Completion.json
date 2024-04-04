@@ -27,6 +27,24 @@
         "documentation": {}
     },
     {
+        "label": "Renombrar",
+        "kind": 6,
+        "importPath": "Canvi de nom d'un fitxer",
+        "description": "Canvi de nom d'un fitxer",
+        "peekOfCode": "class Renombrar:\n    def inicio(self):\n        fichero = self.obtener_nombre()\n        self.renombrar_fichero(fichero)\n    def obtener_nombre(self):\n        fichero = input(\"Escribe el nombre de la ruta: \")\n        return fichero\n    def renombrar_fichero(self, fichero):\n        existe = self.fichero_existe(fichero)\n        if existe:",
+        "detail": "Canvi de nom d'un fitxer",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Canvi de nom d'un fitxer",
+        "description": "Canvi de nom d'un fitxer",
+        "peekOfCode": "app = Renombrar()\napp.inicio()",
+        "detail": "Canvi de nom d'un fitxer",
+        "documentation": {}
+    },
+    {
         "label": "generar_combinacio_secreta",
         "kind": 2,
         "importPath": "EndevinalaCombinaciódeLletresSecreta",

@@ -58,7 +58,16 @@
         "kind": 2,
         "importPath": "EndevinalaCombinaciódeLletresSecreta",
         "description": "EndevinalaCombinaciódeLletresSecreta",
-        "peekOfCode": "def donar_pista(combinacio_secreta, intent):\n    pista = ''\n    for i in range(len(combinacio_secreta)):\n        if intent[i] == combinacio_secreta[i]:\n            pista += 'O'\n        elif",
+        "peekOfCode": "def donar_pista(combinacio_secreta, intent):\n    pista = ''\n    for i in range(len(combinacio_secreta)):\n        if intent[i] == combinacio_secreta[i]:\n            pista += 'O'\n        elif intent[i] in combinacio_secreta:\n            pista += 'X'\n        else:\n            pista += '-'\n    return pista",
+        "detail": "EndevinalaCombinaciódeLletresSecreta",
+        "documentation": {}
+    },
+    {
+        "label": "joc",
+        "kind": 2,
+        "importPath": "EndevinalaCombinaciódeLletresSecreta",
+        "description": "EndevinalaCombinaciódeLletresSecreta",
+        "peekOfCode": "def joc():\n    combinacio_secreta = generar_combinacio_secreta()\n    encertat = False\n    while not encertat:\n        intent = input(\"Escriu 5 lletres minúscules: \")\n        pista = donar_pista(combinacio_secreta, intent)\n        print(\"La resposta és [\" + pista + \"]. Continua intentant-ho!\")\n        if pista == 'OOOOO':\n            encertat = True\n    print(\"Has encertat!\")",
         "detail": "EndevinalaCombinaciódeLletresSecreta",
         "documentation": {}
     },

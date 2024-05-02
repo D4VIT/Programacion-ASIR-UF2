@@ -2,7 +2,7 @@ class GestorNotes {
     private String[] nomsAlumnes;
     private int[][] notesAlumnes;
 
-    public GestorNotes(int numsAlumnes, int numAssignatures) {
+    public GestorNotes(int numAlumnes, int numAssignatures) {
         this.nomsAlumnes = new String[numAlumnes];
         this.notesAlumnes = new int[numAlumnes][numAssignatures];
     }
@@ -32,5 +32,5 @@ class GestorNotes {
 }
 
 class CalculadoraEstadistiques {
-    
+
 }

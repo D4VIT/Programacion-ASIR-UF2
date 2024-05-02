@@ -22,7 +22,11 @@ class GestorNotes {
 
     public int[] obtenirNotes(String nomAlumne) {
         for (int i = 0; i < nomsAlumnes.length; i++) {
-            if ()
+            if (nomsAlumnes[i] !=null && nomsAlumnes[i].equals(nomAlumne)) {
+                return notesAlumnes[i];
+            }
         }
+        System.out.println("L'alumne" + nomAlumne + "no existeix.");
+        return null;
     }
 }

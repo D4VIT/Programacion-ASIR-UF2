@@ -3,6 +3,9 @@ class GestorNotes {
     private int[][] notesAlumnes;
 
     public GestorNotes(int numsAlumnes, int numAssignatures) {
-        this.noms
+        this.nomsAlumnes = new String[numAlumnes];
+        this.notesAlumnes = new int[numAlumnes][numAssignatures];
     }
+
+    public void registrarNotes(String nomAlumne, int[] notes)
 }

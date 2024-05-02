@@ -12,6 +12,9 @@ class GestorNotes {
             if (nomsAlumnes[i] == null) {
                 nomsAlumnes[i] = nomAlumne;
                 notesAlumnes[i] = notes;
+
+                System.out.println("Notes de l'alumne" + nomAlumne + "Registrades amb exit.");
+                return;
             }
         }
     }

@@ -19,4 +19,10 @@ class GestorNotes {
         }
         System.out.println("No es poden registrar mes alumnes.");
     }
+
+    public int[] obtenirNotes(String nomAlumne) {
+        for (int i = 0; i < nomsAlumnes.length; i++) {
+            if ()
+        }
+    }
 }

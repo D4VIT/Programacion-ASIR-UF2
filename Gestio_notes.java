@@ -7,5 +7,12 @@ class GestorNotes {
         this.notesAlumnes = new int[numAlumnes][numAssignatures];
     }
 
-    public void registrarNotes(String nomAlumne, int[] notes)
+    public void registrarNotes(String nomAlumne, int[] notes) {
+        for (int i = 0; i < nomsAlumnes.length; i++) {
+            if (nomsAlumnes[i] == null) {
+                nomsAlumnes[i] = nomAlumne;
+                notesAlumnes[i] = notes;
+            }
+        }
+    }
 }

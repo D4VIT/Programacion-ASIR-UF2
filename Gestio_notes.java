@@ -30,3 +30,7 @@ class GestorNotes {
         return null;
     }
 }
+
+class CalculadoraEstadistiques {
+    
+}

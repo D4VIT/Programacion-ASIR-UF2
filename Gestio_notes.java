@@ -17,5 +17,6 @@ class GestorNotes {
                 return;
             }
         }
+        System.out.println("No es poden registrar mes alumnes.");
     }
 }

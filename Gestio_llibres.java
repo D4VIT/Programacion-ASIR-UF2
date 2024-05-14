@@ -27,3 +27,19 @@ class LlistaLlibres<T extends Llibre> {
     public void eliminarLlibre(T llibre) {
         llibres.remove(llibre);
     }
+
+    public T buscarLlibrePerTitol(String titol) {
+        for (T llibre : llibres) {
+            if (llibre.getTitol().equals(titol)) {
+                return llibre;
+            }
+        }
+        return null;
+    }
+
+    public void mostrarLlibres() {
+        for (T llibre : llibres) {
+            System.out.println(llibre.getTitol());
+        }
+    }
+}

@@ -69,3 +69,9 @@ public class GestorLlibres {
         novelas.mostrarLlibres();
     }
 }
+
+class Novela extends Llibre {
+    public Novela(String titol) {
+        super(titol);
+    }
+}

@@ -64,5 +64,8 @@ public class GestorLlibres {
             System.out.println("Libro no encontrado.");
         }
 
+        novelas.eliminarLlibre(novela1);
+        System.out.println("Libros de novela después de eliminar uno:");
+        novelas.mostrarLlibres();
     }
 }

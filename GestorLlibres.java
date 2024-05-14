@@ -43,3 +43,15 @@ class LlistaLlibres<T extends Llibre> {
         }
     }
 }
+
+public class GestorLlibres {
+    public static void main(String[] args) {
+        LlistaLlibres<Novela> novelas = new LlistaLlibres<>();
+
+        Novela novela1 = new Novela("Cien años de soledad");
+        Novela novela2 = new Novela("1984");
+        novelas.afegirLlibre(novela1);
+        novelas.afegirLlibre(novela2);
+
+    }
+}

@@ -12,3 +12,18 @@ class Llibre {
         return titol;
     }
 }
+
+class LlistaLlibres<T extends Llibre> {
+    private List<T> llibres;
+
+    public LlistaLlibres() {
+        llibres = new ArrayList<>();
+    }
+
+    public void afegirLlibre(T llibre) {
+        llibres.add(llibre);
+    }
+
+    public void eliminarLlibre(T llibre) {
+        llibres.remove(llibre);
+    }

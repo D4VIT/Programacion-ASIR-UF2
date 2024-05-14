@@ -53,5 +53,16 @@ public class GestorLlibres {
         novelas.afegirLlibre(novela1);
         novelas.afegirLlibre(novela2);
 
+        System.out.println("Libros de novela:");
+        novelas.mostrarLlibres();
+
+        System.out.println("Buscar libro en la lista de novelas:");
+        Novela libroEncontrado = novelas.buscarLlibrePerTitol("1984");
+        if (libroEncontrado != null) {
+            System.out.println("Libro encontrado: " + libroEncontrado.getTitol());
+        } else {
+            System.out.println("Libro no encontrado.");
+        }
+
     }
 }
